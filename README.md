@@ -1,6 +1,6 @@
 # hydration in ssr
 
-how to setup hydration on form with react and without react or next.js or any other framework which does this
+how to setup hydration on form with react without next.js or any other framework which does this out of the box
 
 ## with react
 libraries used:
