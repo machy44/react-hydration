@@ -7,6 +7,3 @@ const App = () => <h1>Hello from React + Webpack!</h1>;
 const container = document.getElementById('root');
 const root = createRoot(container);
 root.render(<App />);
-
-
-// without react or any other framework
