@@ -4,9 +4,10 @@ how to setup hydration on form with react without next.js or any other framework
 
 ## with react
 libraries used:
-- react-router
+- react-router -> vidi kako njega namjestati za ssr
 - react
-- react hook form
+- react hook form -> vidi kako njega namjestati za ssr
+- i neki css library mozda -> vidi da li ce to raditi
 
 two different routes to see how use react-router for ssr
 /login
