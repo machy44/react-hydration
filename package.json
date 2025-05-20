@@ -4,9 +4,7 @@
   "description": "how to setup hydration on form in ssr",
   "main": "index.js",
   "scripts": {
-    "client": "cd client && npm start",
-    "server": "cd server && nodemon index.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "nodemon start-server.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +15,7 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "nodemon": "^3.1.10",
     "@babel/core": "^7.27.1",
     "@babel/preset-env": "^7.27.2",
     "@babel/preset-react": "^7.27.1",

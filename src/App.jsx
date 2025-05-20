@@ -1,10 +1,8 @@
-import React from 'react';
+import React from "react";
+import { Dashboard } from "./components/Dashboard";
 
 const App = () => {
-  return <>
-  <h1>Hello from React!</h1>
-  <button onClick={() => alert("hydrated")}>click me</button>
-  </>;
+  return <Dashboard />;
 };
 
 export default App;

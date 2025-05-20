@@ -12,3 +12,5 @@ libraries used:
 two different routes to see how use react-router for ssr
 /login
 /dashboard => where form is going to be
+/some chart with dumb data
+/ some content page
