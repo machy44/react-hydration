@@ -1,8 +1,6 @@
 // server.js
 const express = require('express');
 const { renderApp } = require('./src/server.jsx');
-// import fs from 'fs';
-// import path from 'path';
 
 const app = express();
 const PORT = 3000;
@@ -11,7 +9,7 @@ const PORT = 3000;
 app.use(express.static('public'));
 
 app.get('*', (req, res) => {
-  const appHtml = renderApp();
+  const appHtml = renderApp(req);
 
   const html = `
     <!DOCTYPE html>

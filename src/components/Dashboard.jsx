@@ -21,7 +21,7 @@ const Card = ({ title, value }) => (
 
 export const Dashboard = () => (
   <div style={styles.container}>
-    <TopNav />
+    {/* <TopNav /> */}
     <main style={styles.main}>
       <h1 style={styles.pageTitle}>Dashboard</h1>
       <div style={styles.grid}>
